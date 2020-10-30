@@ -1,0 +1,22 @@
+{
+  "name": "tools-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "tools-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "liminzhanganb@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^6.2.0",
+    "inquirer": "^7.3.3"
+  },
+  "dependencies": {
+    "simple-git": "^2.21.0"
+  }
+}
